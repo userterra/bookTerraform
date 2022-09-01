@@ -5,7 +5,7 @@ provider "aws" {
 
 module "webserver-cluster" {
   #source = "../../../modules/services/webserver-cluster"
-  source = "github.com/userterra/bookTerraform/modules//webserver-cluster?ref=v0.0.1"
+  source = "github.com/userterra/bookTerraform/modules//services/webserver-cluster?ref=v0.0.1"
 
   #cluster_name = "webservers-stage"
   #db_remote_state_bucket = "terraform-my-testing-state-2"
